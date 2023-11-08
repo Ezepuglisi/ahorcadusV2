@@ -351,6 +351,126 @@ export const words = [
         {
             "word": "Globo",
             "meaning": "Objeto inflable lleno de aire"
+        },
+        {
+            "word": "Extravagante",
+            "meaning": "Que se destaca por su excentricidad o extravagancia."
+        },
+        {
+            "word": "Inexpugnable",
+            "meaning": "Que no puede ser tomado o conquistado por asalto."
+        },
+        {
+            "word": "Ubicuidad",
+            "meaning": "Capacidad de estar presente en todas partes al mismo tiempo."
+        },
+        {
+            "word": "Xilófono",
+            "meaning": "Instrumento musical de percusión formado por láminas de madera."
+        },
+        {
+            "word": "Quimérico",
+            "meaning": "Que solo existe en la imaginación, algo irreal o ilusorio."
+        },
+        {
+            "word": "Paupérrimo",
+            "meaning": "Muy pobre o indigente, que carece de recursos."
+        },
+        {
+            "word": "Zafiro",
+            "meaning": "Gema preciosa de color azul, a menudo utilizada en joyería."
+        },
+        {
+            "word": "Desenvolver",
+            "meaning": "Desplegar o desplegar algo que estaba envuelto."
+        },
+        {
+            "word": "Juxtaposición",
+            "meaning": "Acción de colocar dos o más cosas juntas para compararlas o contrastarlas."
+        },
+        {
+            "word": "Quincuagésimo",
+            "meaning": "El número cincuenta en una serie o secuencia."
+        },
+        {
+            "word": "Metamorfosis",
+            "meaning": "Proceso de cambio o transformación de una forma a otra."
+        },
+        {
+            "word": "Perplejidad",
+            "meaning": "Estado de confusión o desconcierto."
+        },
+        {
+            "word": "Discreción",
+            "meaning": "Calidad de ser prudente y cuidadoso en las acciones y palabras."
+        },
+        {
+            "word": "Hipotenusa",
+            "meaning": "En un triángulo rectángulo, el lado opuesto al ángulo recto."
+        },
+        {
+            "word": "Querencia",
+            "meaning": "Lugar de donde alguien es natural o donde se siente en su elemento."
+        },
+        {
+            "word": "Espeluznante",
+            "meaning": "Que provoca horror o espanto."
+        },
+        {
+            "word": "Inmaculado",
+            "meaning": "Que está completamente limpio o sin manchas."
+        },
+        {
+            "word": "Colecturía",
+            "meaning": "Oficina o lugar donde se recaudan impuestos u otras contribuciones."
+        },
+        {
+            "word": "Vorágine",
+            "meaning": "Un torbellino o una situación caótica y confusa."
+        },
+        {
+            "word": "Fisonomía",
+            "meaning": "Aspecto o apariencia de una persona, especialmente su rostro."
+        },
+        {
+            "word": "Querulante",
+            "meaning": "Persona que tiende a quejarse o protestar con frecuencia."
+        },
+        {
+            "word": "Bucelario",
+            "meaning": "Libro o registro donde se anotan los nacimientos."
+        },
+        {
+            "word": "Jerarquía",
+            "meaning": "Sistema de clasificación o estructura organizativa basada en niveles de autoridad."
+        },
+        {
+            "word": "Sintaxis",
+            "meaning": "La estructura y organización de las palabras en una oración o lenguaje."
+        },
+        {
+            "word": "Helicóptero",
+            "meaning": "Aeronave con rotores que le permiten despegar y aterrizar verticalmente."
+        },
+        {
+            "word": "Desolación",
+            "meaning": "Estado de devastación o tristeza extrema."
+        },
+        {
+            "word": "Inefable",
+            "meaning": "Que no puede ser expresado con palabras debido a su grandeza o emoción."
+        },
+        {
+            "word": "Ilusorio",
+            "meaning": "Engañoso o basado en ilusiones falsas."
+        },
+        {
+            "word": "Zoonosis",
+            "meaning": "Enfermedad infecciosa que puede transmitirse de animales a humanos."
+        },
+        {
+            "word": "Búho",
+            "meaning": "Ave rapaz nocturna conocida por su agudeza visual y su silencio en vuelo."
         }
     ]
 ]

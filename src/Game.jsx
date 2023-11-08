@@ -1,6 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { words } from './assets/words'
 import PalabraDiv from './Components/PalabraDiv';
+import UserWon from './Components/userWon';
+import UserLose from './Components/userLose';
 const Game = () => {
     const alfabeto = [
         'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
@@ -215,7 +217,6 @@ const Game = () => {
 
 
     const draw = function ($pathFromx, $pathFromy, $pathTox, $pathToy) {
-        console.log(context)
         context.moveTo($pathFromx, $pathFromy);
         context.lineTo($pathTox, $pathToy);
         context.stroke();
@@ -267,12 +268,7 @@ const Game = () => {
             <div>
                 {
                     userWin ?
-                        <>
-                            <div className='flex items-center justify-center flex-col gap-8'>
-                                <p>Felicidades, haz ganado 😊</p>
-                                <button className='bg-indigo-300 p-2 rounded-lg' onClick={() => tryAgain()}>¡Vuelve a jugar!</button>
-                            </div>
-                        </>
+                        <UserWon tryAgain={tryAgain} />
                         :
                         <>
                             {selectedWord && !isGameOver &&
@@ -284,16 +280,12 @@ const Game = () => {
                                     </div>
                                     {buttonPista && !viewPista && <button className='bg-indigo-300 p-2 rounded-lg' onClick={() => setViewPista(true)}>Necesito una pista 💡</button>}
                                     {viewPista && <p className='p-2 border-2'>{selectedWord.meaning}</p>}
-                                    {/* <p className='p-2 border-2'>{selectedWord.meaning}</p> */}
                                 </div>
                             }
 
 
                             {isGameOver &&
-                                <div className='flex items-center flex-col justify-center gap-8'>
-                                    <p>Perdiste, vuelve a intentarlo</p>
-                                    <button className='bg-indigo-300 p-2 rounded-lg' onClick={() => tryAgain()}>Volver a intentar</button>
-                                </div>
+                                <UserLose tryAgain={tryAgain} />
                             }
                         </>
 
